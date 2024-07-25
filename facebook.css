@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+     height:700px; 
+     /* width: 90%; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: lightgray;
+
+}
+.total{
+   width: 90%;
+   margin: 10px 20px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content:center;
+   /* border: 2px red solid; */
+
+}
+.left
+{
+    padding-left: 25px;
+    width: 45%;
+    /* height: 20%; */
+}
+.left h1{
+ color: rgb(93, 93, 240);
+ font-size: 52px;
+}
+.left h3{
+    font-size: 30px;
+    font-weight: 250;
+    /* font-family: inheri; */
+}
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.loginpage{
+    background-color: rgba(255, 255, 255, 0.884);
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+     align-items: center; 
+    
+/* box-shadow: -10px -20px -15px rgba(0,0,0,3) */
+    
+}
+ /* .right .loginpage form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+     padding: 10px;
+    line-height: 10px; 
+    
+
+
+} */
+.right .loginpage form input , .right .account .second{
+    width: 87%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(206, 202, 202, 0.966);
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 15px;
+
+}
+.right .loginpage form input:hover{
+    border: blue 2px solid;
+}
+.right .loginpage form .first
+    {
+        width: 87%;
+        height: 50px;
+        background-color: rgb(43, 43, 231);
+        margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+     color: beige;
+     margin-left: 25px;
+    }
+    .right .loginpage form .first:hover{
+        background-color: blue;
+    }
+
+.right .loginpage a  {
+     text-align: center;
+    font-size: 13px;
+    color: blue; 
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    align-items: center; 
+    margin-top: -20px;
+    /* padding-bottom: 70px; */
+
+}
+hr{
+    width: 300px;
+    background-color:1px solid #fff;
+    margin-top: -20px;
+    align-items: center;
+    
+}
+
+ .right .account .second  {
+    border: 2px green;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(14, 199, 14);
+    margin-right: 20px;
+    color: rgb(255, 249, 249);
+    font-size: 15px;
+
+}
+.right .account .second:hover{
+    background-color: green;
+}
